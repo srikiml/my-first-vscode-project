@@ -6,3 +6,10 @@ document.getElementById("addBtn").addEventListener("click", function () {
 
     document.getElementById("result").textContent = `Result: ${sum}`;
 });
+
+
+document.getElementById("clearBtn").addEventListener("click", function () {
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    document.getElementById("result").textContent = "Result: 0";
+});

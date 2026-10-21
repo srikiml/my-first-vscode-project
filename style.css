@@ -42,3 +42,11 @@ button:hover {
     margin-top: 15px;
     color: #333;
 }
+
+#clearBtn {
+    background-color: #dc3545;
+}
+
+#clearBtn:hover {
+    background-color: #b02a37;
+}
